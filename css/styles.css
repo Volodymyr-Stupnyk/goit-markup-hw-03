@@ -131,17 +131,15 @@ border-bottom: 1px solid #e7e9fc;
 
 .page-hero {
     background: #2e2f42;
-    
-}
-
-
-.hero-container {  
-    height: 600px; 
     padding-top: 188px;
     padding-bottom: 188px;
-    
-    
 }
+
+
+/* .hero-container {  
+        
+    
+} */
 
 
 .hero-tittle {
@@ -190,11 +188,16 @@ border-bottom: 1px solid #e7e9fc;
 /* FEATURE */
 
 
-.feature-container {
-    justify-self: center;
-    flex-direction: row;
+.page-feature {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+
+.feature-container {
+    justify-self: center;
+    /* flex-direction: row; */
+   
    
 }
 .tittle2 {
@@ -235,13 +238,10 @@ border-bottom: 1px solid #e7e9fc;
 
 .page-our-team {
     background: #f4f4fd;
-    height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.our-team-conteiner {
-padding-top: 120px;
-padding-bottom: 120px;
-}
 
 
 .our-team-tittle {
@@ -258,20 +258,15 @@ padding-bottom: 120px;
 .our-team-item {
     background-color: #fff; 
     border-radius: 0 0 4px 4px;
-    width: 264px;
-    
+    width: 264px;   
 }
 
 
 .box-team-card {
     align-items: center;
     padding-top: 32px;
-    padding-bottom: 32px;
-    
-    
+    padding-bottom: 32px;   
 }
-/*     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px; */
 
 
 .our-team-subtittle {
@@ -314,16 +309,19 @@ padding-bottom: 120px;
 /* our-portfolio */
 
 
-.box-portfolio {
-    height: 1000px;
-    margin-bottom: 120px;
-    margin-top: 120px;
+.page-our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-tittle {
    margin-bottom: 72px;
 }
 
+.portfolio-card {
+
+flex-wrap: wrap;
+}
 
 .our-portfolio-subtittle{
     padding-left: 16px;
@@ -333,39 +331,18 @@ padding-bottom: 120px;
 
 
 .our-portfolio-text{
-    margin-bottom: 32px;
-    padding-left: 16px;
-
+padding-left: 16px;
 }
-
-
-
-.portfolio {
-    display: flex;
-    gap: 24px;
-}
-
-.portfolio-card-1sec {
-    margin-bottom: 48px;
-}
-
-
 
 
 /* FOOTER */
 
 .page-footer {
     background: #2e2f42;
-}
-
-
-.footer-container {
-    height: 300px;
     padding-top: 100px;
     padding-bottom: 100px;
-    flex-direction: column;
-        
 }
+
 
 .footer-logo {
     display: inline-block;
@@ -375,13 +352,11 @@ padding-bottom: 120px;
 
 
 .footer-tittle-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-        width: 264px;
-        
-       
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;      
 }
 
 
