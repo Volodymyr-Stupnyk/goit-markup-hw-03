@@ -137,7 +137,10 @@ border-bottom: 1px solid #e7e9fc;
 
 .hero-container {  
     height: 600px; 
-    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
+    
 }
 
 
@@ -150,8 +153,9 @@ border-bottom: 1px solid #e7e9fc;
     color: #fff;
     max-width: 496px;
     height: 120px;
-    padding: 188px 0;
-    margin: 0 auto;
+    margin-bottom: 48px;
+    
+   
 }
 
 
@@ -171,11 +175,12 @@ border-bottom: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 16px 32px;
     height: 56px;
-    min-width: 169px;
-    margin: 0 auto;
-    
-    
+    min-width: 169px;  
 }
+
+
+
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF
@@ -188,17 +193,19 @@ border-bottom: 1px solid #e7e9fc;
 .feature-container {
     justify-self: center;
     flex-direction: row;
+    padding-top: 120px;
+    padding-bottom: 120px;
    
 }
 .tittle2 {
-    display: none;
+    visibility: hidden;
 }
 
 .feature-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+ 
+/* width:calc((100% - 3 * 24px) / 4); */
 }
 
 
@@ -231,9 +238,13 @@ border-bottom: 1px solid #e7e9fc;
     height: 732px;
 }
 
+.our-team-conteiner {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 
 .our-team-tittle {
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -241,21 +252,26 @@ border-bottom: 1px solid #e7e9fc;
 .our-team-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
-    
-    
 }
 
 
 .our-team-item {
-    background-color: #fff;
+    background-color: #fff; 
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    
 }
 
 
 .box-team-card {
     align-items: center;
-    margin: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+    
 }
+/*     border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px; */
 
 
 .our-team-subtittle {
@@ -369,16 +385,3 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 
-/* 
-.hero-tittle {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    max-width: 496px;
-    height: 120px;
-    padding: 188px 0;
-    margin: 0 auto;
- */
