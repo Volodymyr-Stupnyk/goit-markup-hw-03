@@ -55,14 +55,12 @@
       <section class="page-hero">
         <div class="container hero-container">
           <h1 class="hero-tittle">Effective Solutions for Your Business</h1>
-          <div class="container-btn">
-            <button class="hero-btn" type="button">Order Service</button>
-          </div>
+          <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
       <section class="page-feature">
         <div class="container feature-container">
-          <h2 class="">Feature fffff</h2>
+          <h2 class="tittle2">Feature fffff</h2>
           <ul class="feature-list">
             <li class="feature-item">
               <h3 class="feature-tittle">Strategy</h3>
@@ -105,8 +103,10 @@
                 alt="Mark Guerrero Product Designer"
                 width="264"
               />
-              <h3 class="our-team-subtittle">Mark Guerrero</h3>
-              <p class="our-team-tittle-text">Product Designer</p>
+              <div class="box-team-card">
+                <h3 class="our-team-subtittle">Mark Guerrero</h3>
+                <p class="our-team-tittle-text">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -114,8 +114,10 @@
                 alt="Tom Ford Frontend Developer"
                 width="264"
               />
-              <h3 class="our-team-subtittle">Tom Ford</h3>
-              <p class="our-team-tittle-text">Frontend Developer</p>
+              <div class="box-team-card">
+                <h3 class="our-team-subtittle">Tom Ford</h3>
+                <p class="our-team-tittle-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -123,76 +125,91 @@
                 alt="Camila Garcia Marketing"
                 width="264"
               />
-              <h3 class="our-team-subtittle">Camila Garcia</h3>
-              <p class="our-team-tittle-text">Marketing</p>
+              <div class="box-team-card">
+                <h3 class="our-team-subtittle">Camila Garcia</h3>
+                <p class="our-team-tittle-text">Marketing</p>
+              </div>
             </li>
+
             <li class="our-team-item">
               <img
                 src="./images/4.jpg"
                 alt="Daniel Wilson UI Designer"
                 width="264"
               />
-              <h3 class="our-team-subtittle">Daniel Wilson</h3>
-              <p class="our-team-tittle-text">UI Designer</p>
+              <div class="box-team-card">
+                <h3 class="our-team-subtittle">Daniel Wilson</h3>
+                <p class="our-team-tittle-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="page-our-portfolio">
         <div class="container our-portfolio">
-          <h2 class="our-portfolio-tittle">Our Portfolio</h2>
-          <ul class="our-portfolio-list">
-            <li class="our-portfolio-item">
-              <img src="./images/BankingApp.jpg" alt="BankingApp" width="360" />
-              <h3 class="our-portfolio-subtittle">Banking App</h3>
-              <p class="our-portfolio-text">App</p>
-            </li>
-            <li>
-              <img
-                src="./images/CashlessPayment.jpg"
-                alt="CashlessPayment"
-                width="360"
-              />
-              <h3 class="our-portfolio-subtittle">Cashless Payment</h3>
-              <p class="our-portfolio-text">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="./images/MeditationApp.jpg"
-                alt="MeditationApp"
-                width="360"
-              />
-              <h3 class="our-portfolio-subtittle">Meditation App</h3>
-              <p class="our-portfolio-text">App</p>
-            </li>
-            <li>
-              <img
-                src="./images/TaxiService.jpg"
-                alt="TaxiService"
-                width="360"
-              />
-              <h3 class="our-portfolio-subtittle">Taxi Service</h3>
-              <p class="our-portfolio-text">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="./images/ScreenIllustrations.jpg"
-                alt="ScreenIllustrations"
-                width="360"
-              />
-              <h3 class="our-portfolio-subtittle">Screen Illustrations</h3>
-              <p class="our-portfolio-text">Design</p>
-            </li>
-            <li>
-              <img
-                src="./images/OnlineCourses.jpg"
-                alt="OnlineCourses"
-                width="360"
-              />
-              <h3 class="our-portfolio-subtittle">Online Courses</h3>
-              <p class="our-portfolio-text">Marketing</p>
-            </li>
-          </ul>
+          <div class="box-portfolio">
+            <h2 class="our-portfolio-tittle">Our Portfolio</h2>
+            <ul class="our-portfolio-list">
+              <div class="portfolio portfolio-card-1sec">
+                <li class="our-portfolio-item">
+                  <img
+                    src="./images/BankingApp.jpg"
+                    alt="BankingApp"
+                    width="360"
+                  />
+                  <h3 class="our-portfolio-subtittle">Banking App</h3>
+                  <p class="our-portfolio-text">App</p>
+                </li>
+                <li>
+                  <img
+                    src="./images/CashlessPayment.jpg"
+                    alt="CashlessPayment"
+                    width="360"
+                  />
+                  <h3 class="our-portfolio-subtittle">Cashless Payment</h3>
+                  <p class="our-portfolio-text">Marketing</p>
+                </li>
+                <li>
+                  <img
+                    src="./images/MeditationApp.jpg"
+                    alt="MeditationApp"
+                    width="360"
+                  />
+                  <h3 class="our-portfolio-subtittle">Meditation App</h3>
+                  <p class="our-portfolio-text">App</p>
+                </li>
+              </div>
+              <div class="portfolio portfolio-card-2sec">
+                <li>
+                  <img
+                    src="./images/TaxiService.jpg"
+                    alt="TaxiService"
+                    width="360"
+                  />
+                  <h3 class="our-portfolio-subtittle">Taxi Service</h3>
+                  <p class="our-portfolio-text">Marketing</p>
+                </li>
+                <li>
+                  <img
+                    src="./images/ScreenIllustrations.jpg"
+                    alt="ScreenIllustrations"
+                    width="360"
+                  />
+                  <h3 class="our-portfolio-subtittle">Screen Illustrations</h3>
+                  <p class="our-portfolio-text">Design</p>
+                </li>
+                <li>
+                  <img
+                    src="./images/OnlineCourses.jpg"
+                    alt="OnlineCourses"
+                    width="360"
+                  />
+                  <h3 class="our-portfolio-subtittle">Online Courses</h3>
+                  <p class="our-portfolio-text">Marketing</p>
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
