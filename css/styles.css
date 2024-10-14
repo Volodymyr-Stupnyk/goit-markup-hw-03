@@ -194,22 +194,28 @@ border-bottom: 1px solid #e7e9fc;
     
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
-.feature-container {
-    /* justify-self: center; */
-    /* flex-direction: row; */
-    width: calc((1158% - 3 * 24px) / 4);
-   
-   
-}
-.tittle2 {
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
 .feature-list {
     display: flex;
-    /* gap: 24px; */
-   
+    gap: 24px;  
+}
+
+.feature-card {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: 264px;
 }
 
 
@@ -329,7 +335,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .portfolio-card {
 
-flex-wrap: wrap;
+
 }
 
 .our-portfolio-subtittle{
