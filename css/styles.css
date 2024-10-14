@@ -191,24 +191,25 @@ border-bottom: 1px solid #e7e9fc;
 .page-feature {
     padding-top: 120px;
     padding-bottom: 120px;
+    
 }
 
 
 .feature-container {
-    justify-self: center;
+    /* justify-self: center; */
     /* flex-direction: row; */
+    width: calc((1158% - 3 * 24px) / 4);
    
    
 }
 .tittle2 {
-    visibility: hidden;
+    overflow: hidden;
 }
 
 .feature-list {
     display: flex;
-    gap: 24px;
- 
-/* width:calc((100% - 3 * 24px) / 4); */
+    /* gap: 24px; */
+   
 }
 
 
@@ -316,6 +317,14 @@ border-bottom: 1px solid #e7e9fc;
 
 .our-portfolio-tittle {
    margin-bottom: 72px;
+}
+
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+ 
 }
 
 .portfolio-card {
