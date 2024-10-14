@@ -313,7 +313,7 @@ border-bottom: 1px solid #e7e9fc;
    
 
 
-/* our-portfolio */
+/*-------------------------------------our-portfolio */
 
 
 .page-our-portfolio {
@@ -330,17 +330,17 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
  
 }
 
 .portfolio-card {
-
-
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-subtittle{
     padding-left: 16px;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -350,7 +350,7 @@ padding-left: 16px;
 }
 
 
-/* FOOTER */
+/*-------------------------------------- FOOTER */
 
 .page-footer {
     background: #2e2f42;
