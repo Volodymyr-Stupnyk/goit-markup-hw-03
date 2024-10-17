@@ -147,6 +147,8 @@ img {
     max-width: 496px;
     height: 120px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     
    
 }
@@ -168,7 +170,9 @@ img {
     border-radius: 4px;
     padding: 16px 32px;
     height: 56px;
-    min-width: 169px;  
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 
@@ -338,13 +342,9 @@ img {
 }
 
 .our-portfolio-subtittle{
-    padding-left: 16px;
     margin-bottom: 8px;
 }
 
-.our-portfolio-text{
-    padding-left: 16px;
-}
 
 
 /*-------------------------------------- FOOTER */
